@@ -19,35 +19,35 @@
             
             <label for="time">The time of day</label>
               <select class="form-control" id="time">
-                <option>9am-5pm</option>
-                <option>5pm-11pm</option>
+                <option value="9am-5pm">9am-5pm</option>
+                <option value="5pm-11pm">5pm-11pm</option>
               </select>
             <div class="form-group">
-              <label for="first-release-movie">First Release Movie</label>
-              <select class="form-control" id="first-release-movie">
-                <option></option>
-                <option>Resistance </option>
-                <option>Onward</option>
-                <option>Madtown</option>
-                <option>Frozen</option>
+              <label for="name">Movie</label>
+              <select class="form-control" id="name">
+                <option value="Resistance">Resistance (first release movie)</option>
+                <option value="Onward">Onward (first release movie)</option>
+                <option value="Madtown">Madtown (not first release movie)</option>
+                <option value="Frozen">Frozen (not first release movie)</option>
               </select>
             </div>
-            
+
             <div class="form-group">
               <label for="age">Age</label>
-              <select class="form-control" id="age">Age
-                <option>0-12</option>
-                <option>12-60</option>
-                <option>60+</option>
+              <select class="form-control" id="age">
+                <option value="0-12">0-12</option>
+                <option value="12-60">12-60</option>
+                <option value="60+">60+</option>
               </select>
             </div>
-            <button type="submit" class="btn-primary">Add</button>
+            <button type="submit" class="btn-primary">Submit</button>
           </form>
           <hr>
 
           <h2>Your Ticket:</h2>
-          <ul id="contacts">
-          </ul>
+          <div id="result">
+            
+          </div>
         </div>
         <!------
         <div class="col-md-6">
