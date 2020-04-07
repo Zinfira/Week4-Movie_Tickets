@@ -17,23 +17,7 @@ Ticket.prototype.getPrice = function(){
 //    } else if ()
 // }
 
-var mySpy = new Ticket("My Spy","18-60","5pm-11pm")
-var Onward = new Ticket("Onward", "18-60", "5pm-11pm")
-var Madtown = new Ticket("Madtown", "18-60", "5pm-11pm")
-var Frozen = new Ticket("Frozen", "18-60", "5pm-11pm")
 
-//function displayTicket(ticketToDisplay) {
-
-//}
-
-
-
-$(document).ready(function(){
-   $("#tickets").submit(function(event){
-      event.preventDefault();
-      var status = "";
-      var firstReleaseMovie = $("#first-release-movie").val();
-      var nonFirstReleaseMovie = $("#non-first-release-movie").val();
       var inputAge = $("#age").val();
       var inputTime = $("#time").val();
       if(firstReleaseMovie === ''){
