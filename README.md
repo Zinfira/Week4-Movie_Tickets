@@ -17,7 +17,14 @@
 * Alternatively, open the webpage at https://github.com/nitundatta8/movie-tickets.git
 * https://github.com/Zinfira/Week4-Movie_Tickets.git
 ## specs
-1.  
+|Behavior | Input | Output|
+|---------|-------|-------|
+|User selects movie of given choices| _Resistance_, Onward, Madtown, Frozen | Resistance|
+| User can select time| 9am, 11am, 2pm, 6pm, _9pm_, 11pm| 9pm |
+| User can select age| 0-12, 12-60, _60+_ | 60+ |
+| Return cheeper price if age 0-12 and\or 60+ for not first release movie | 60+ | $7 |
+| Return cheeper price if selected time are 9am, 11am, 2pm for not first release movie| 11am | $9 |
+| 
 
 ## Known Bugs
 No known bugs at this time
