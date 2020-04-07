@@ -1,0 +1,78 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Tickets</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <hr>
+          <h2>Choose a movie</h2>
+          <form id="tickets">
+            
+            <label for="time">The time of day</label>
+              <select class="form-control" id="time">Age
+                <option>9am-12pm</option>
+                <option>12pm-5pm</option>
+                <option>5pm-11pm</option>
+              </select>
+            <div class="form-group">
+              <label for="first-release-movie">First Release Movie</label>
+              <select class="form-control" id="first-release-movie">Age
+                <option>Trolls World Tour</option>
+                <option>My Spy </option>
+                <option>Beastie Boys Story</option>
+                <option>Resistance </option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="non-first-release-movie">Non First Release Movie</label>
+              <select class="form-control" id="non-first-release-movie">Age
+                <option>Madtown</option>
+                <option>Time Trap</option>
+                <option>The strange one</option>
+                <option>Goldbuster</option>
+                <option>Frozen</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <select class="form-control" id="age">Age
+                <option>0-3</option>
+                <option>3-12</option>
+                <option>12-17</option>
+                <option>18-60</option>
+                <option>60+</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-primary">Add</button>
+          </form>
+          <hr>
+
+          <h2>Contacts:</h2>
+          <ul id="contacts">
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <div id="show-contact">
+            <!-- <p>First Name: <span class="first-name"></span></p>
+            <p>Last Name: <span class="last-name"></span></p>
+            <p>Phone Number: <span class="phone-number"></span></p>
+            <p>Email: <span class="email"></span></p>
+            <p>Address: <span class="address"></span></p> -->
+            <div id="buttons">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
